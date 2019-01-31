@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
 const Schema   = mongoose.Schema;
 
+// constructor to create books 
+
 const bookSchema = new Schema({
   title: String,
   description: String,
